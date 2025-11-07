@@ -619,7 +619,7 @@ function showRecipe() {
 	recipes_details.innerHTML = card;
 }
 console.log(window.location.pathname);
-if (window.location.pathname === '/browse.html') {
+if (window.location.pathname === '/Recipe-finder-website/browse.html') {
 	ListRecipes();
 } else if (window.location.pathname === '/details.html') {
 	showRecipe();

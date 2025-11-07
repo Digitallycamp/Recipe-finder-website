@@ -585,6 +585,7 @@ function ListRecipes() {
 function showRecipe() {
 	let card = '';
 	const id = new URLSearchParams(window.location.search).get('id');
+	console.log(id);
 	const data = recipes.find((data) => data.id === Number(id));
 	card = `
     

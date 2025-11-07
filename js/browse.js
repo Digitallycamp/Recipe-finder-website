@@ -618,7 +618,7 @@ function showRecipe() {
 
 	recipes_details.innerHTML = card;
 }
-
+console.log(window.location.pathname);
 if (window.location.pathname === '/browse.html') {
 	ListRecipes();
 } else if (window.location.pathname === '/details.html') {
